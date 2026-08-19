@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <section className="bg-slate-900 text-white">
+      <section className="bg-slate-900 text-cb-white">
         <div className="mx-auto flex min-h-[650px] max-w-7xl items-center px-6 py-24">
           <div className="max-w-3xl">
-            <p className="font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <p className="font-semibold uppercase tracking-[0.2em] text-cb-tan">
               CB Building
             </p>
 
@@ -24,7 +24,7 @@ function Home() {
             <div className="mt-10 flex gap-4">
               <Link
                 to="/contact"
-                className="rounded-md bg-amber-500 px-6 py-4 font-semibold text-slate-950"
+                className="rounded-md bg-cb-tan px-6 py-4 font-semibold text-cb-black"
               >
                 Request an Estimate
               </Link>
@@ -42,7 +42,7 @@ function Home() {
 
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="max-w-2xl">
-          <p className="font-semibold uppercase tracking-widest text-amber-600">
+          <p className="font-semibold uppercase tracking-widest text-cb-brown">
             What We Do
           </p>
 
@@ -52,21 +52,21 @@ function Home() {
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
-          <div className="rounded-xl bg-white p-8 shadow-sm">
+          <div className="rounded-xl bg-cb-white p-8 shadow-sm">
             <h3 className="text-xl font-bold">Remodeling</h3>
             <p className="mt-3 text-slate-600">
               Kitchens, bathrooms, and complete home renovations.
             </p>
           </div>
 
-          <div className="rounded-xl bg-white p-8 shadow-sm">
+          <div className="rounded-xl bg-cb-white p-8 shadow-sm">
             <h3 className="text-xl font-bold">New Construction</h3>
             <p className="mt-3 text-slate-600">
               Residential construction designed around your goals.
             </p>
           </div>
 
-          <div className="rounded-xl bg-white p-8 shadow-sm">
+          <div className="rounded-xl bg-cb-white p-8 shadow-sm">
             <h3 className="text-xl font-bold">Exterior Projects</h3>
             <p className="mt-3 text-slate-600">
               Decks, additions, exterior improvements, and more.

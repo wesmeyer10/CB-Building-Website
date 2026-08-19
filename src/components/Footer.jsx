@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-300">
+    <footer className="bg-cb-black text-slate-300">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-3">
         <div>
-          <h2 className="text-xl font-bold text-white">CB Building</h2>
+          <h2 className="text-xl font-bold text-cb-white">CB Building</h2>
 
           <p className="mt-3 text-sm">
             Quality construction, remodeling, and home improvement.
@@ -13,7 +13,7 @@ function Footer() {
         </div>
 
         <div>
-          <h3 className="font-semibold text-white">Navigation</h3>
+          <h3 className="font-semibold text-cb-white">Navigation</h3>
 
           <div className="mt-3 flex flex-col gap-2 text-sm">
             <Link to="/about">About</Link>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
 
         <div>
-          <h3 className="font-semibold text-white">Contact</h3>
+          <h3 className="font-semibold text-cb-white">Contact</h3>
 
           <p className="mt-3 text-sm">
             Phone number
