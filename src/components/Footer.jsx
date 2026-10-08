@@ -8,7 +8,7 @@ function Footer() {
           <h2 className="text-xl font-bold text-cb-white">CB Building</h2>
 
           <p className="mt-3 text-sm">
-            Quality construction, remodeling, and home improvement.
+            All We Sell Is Peace Of Mind.
           </p>
         </div>
 
@@ -27,11 +27,11 @@ function Footer() {
           <h3 className="font-semibold text-cb-white">Contact</h3>
 
           <p className="mt-3 text-sm">
-            Phone number
+            563-599-5628
             <br />
-            Email address
+            CBBuilding@bisbuilding.com
             <br />
-            Service area
+            Dubuque and Surronding Areas
           </p>
         </div>
       </div>

@@ -45,12 +45,12 @@ function Contact() {
             <div className="mt-6 space-y-5 text-slate-700">
               <div>
                 <p className="font-semibold text-cb-black">Phone</p>
-                <p>Business phone number</p>
+                <p>563-599-5628</p>
               </div>
 
               <div>
                 <p className="font-semibold text-cb-black">Email</p>
-                <p>Business email address</p>
+                <p>CBBuilding@bisbuilding.com</p>
               </div>
 
               <div>
